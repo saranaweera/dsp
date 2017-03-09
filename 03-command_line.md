@@ -76,6 +76,6 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > xargs allows one to pipe output from one command to a command doesn't accept standard input stream.
+> > xargs allows one to pipe output from one command to a command doesn't accept a standard input stream.
 copy files that contain the word git to another directory:
 `grep -l git *.md | xargs -I {} cp {} temp/`
