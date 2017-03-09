@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> I prefer using vim and nano, as I have experience using them. I like vim for it read-only and editing modes, since most times I've used terminal editors, I've used them to quickly read through content in files and make few edits.
+>> I prefer using vim and nano, as I have experience using them. I like vim for its read-only and editing modes, since most times I've used terminal editors to quickly read through content in files and make few edits.
 
 --
 
