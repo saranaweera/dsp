@@ -64,11 +64,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
->> `ls -1` - displays each entry of a separate line. This helpful if you are piping the output of this to another function. ex: iterate through files using a for loop
-`ls -ltr` - lists files in ascending order by modification time
-`ls -ltR` - lists files in subdirectories as well
-`ls -m` - displays files/directories as a comma separated list. This could be useful when creating python lists or JSON
-`ls -ld */` - display only directories in the current directory
+>> * `ls -1` - displays each entry of a separate line. This helpful if you are piping the output of this to another function. ex: iterate through files using a for loop
+* `ls -ltr` - lists files in ascending order by modification time
+* `ls -ltR` - lists files in subdirectories as well
+* `ls -m` - displays files/directories as a comma separated list. This could be useful when creating python lists or JSON
+* `ls -ld */` - display only directories in the current directory
 
 ---
 
@@ -77,5 +77,6 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 > > xargs allows one to pipe output from one command to a command doesn't accept a standard input stream.
-copy files that contain the word git to another directory:
+copy files that contain the word git to another directory:  
+
 `grep -l git *.md | xargs -I {} cp {} temp/`
