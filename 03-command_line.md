@@ -49,8 +49,8 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls` - simple file and directory listing. Does not display hidden files
-`ls -a` - list all files/directories including hidden ones  
+>> `ls` - simple file and directory listing. Does not display hidden files
+>> `ls -a` - list all files/directories including hidden ones  
 `ls -l` - listing, long format. Displays attributes such as owner, permissions, modification times, size
 `ls -lh`  - long format, with size displayed in human readable format. Such as in KB, MB, GB etc.
 `ls -lah` - long format, including hidden files/directories with size displayed in a human readable format  
@@ -64,7 +64,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > `ls -1` - displays each entry of a separate line. This helpful if you are piping the output of this to another function. ex: iterate through files using a for loop
+>> `ls -1` - displays each entry of a separate line. This helpful if you are piping the output of this to another function. ex: iterate through files using a for loop
 `ls -ltr` - lists files in ascending order by modification time
 `ls -ltR` - lists files in subdirectories as well
 `ls -m` - displays files/directories as a comma separated list. This could be useful when creating python lists or JSON
