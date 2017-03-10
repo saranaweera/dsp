@@ -22,20 +22,20 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 >>* `pwd` - display current directory
 * `mkdir <directory name>` - create a new directory
 * `rmdir` - Directory should be empty to use this. Use `rm -r <directory name>` to delete a directory with content (including subfolders)
- `cd <directory path>` - change directory to given directory path
- `ls -lt` - display files and directories ordered by modification date, descending
- `touch <file name>` - create a 0 byte empty file
- `rm <file name` - delete file
- `mv <source file name> <new file name>` - renaming is the same command as moving a file within the same directory
- `ls -a` - lists hidden files on Unix
- `cp <source file path> <destination directory>` - copies file to another directory
- `less <file name>` - quick editor to read contents of a file (read-only). Better than more. Less is more :)
- `grep -n apple myfile.txt`      # include the line number
- `grep -i apple myfile.txt`       # case insensitive matching
- `grep --color apple myfile.txt`  # color the matching text
- `grep -v apple myfile.txt`	# return lines that don't contain apple
- `grep -R apple mydirectory/`	# search for apple in any file in mydirectory
- Here is a very nice website with quick examples of widely used Unix commands: [http://www.oliverelliott.org/](http://www.oliverelliott.org/article/computing/ref_unix/#)
+* `cd <directory path>` - change directory to given directory path
+* `ls -lt` - display files and directories ordered by modification date, descending
+* `touch <file name>` - create a 0 byte empty file
+* `rm <file name` - delete file
+* `mv <source file name> <new file name>` - renaming is the same command as moving a file within the same directory
+* `ls -a` - lists hidden files on Unix
+* `cp <source file path> <destination directory>` - copies file to another directory
+* `less <file name>` - quick editor to read contents of a file (read-only). Better than more. Less is more :)
+* `grep -n apple myfile.txt`      # include the line number
+* `grep -i apple myfile.txt`       # case insensitive matching
+* `grep --color apple myfile.txt`  # color the matching text
+* `grep -v apple myfile.txt`	# return lines that don't contain apple
+* `grep -R apple mydirectory/`	# search for apple in any file in mydirectory
+Here is a very nice website with quick examples of widely used Unix commands: [http://www.oliverelliott.org/](http://www.oliverelliott.org/article/computing/ref_unix/#)
 ---
 
 ### Q2.  List Files in Unix   
@@ -49,13 +49,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
->> `ls` - simple file and directory listing. Does not display hidden files
->> `ls -a` - list all files/directories including hidden ones  
-`ls -l` - listing, long format. Displays attributes such as owner, permissions, modification times, size
-`ls -lh`  - long format, with size displayed in human readable format. Such as in KB, MB, GB etc.
-`ls -lah` - long format, including hidden files/directories with size displayed in a human readable format  
-`ls -t`  - listing sorted by the modification time. Most recently modified file shown first
-`ls -Glp` - `G` argument colorizes output, so that directories are displayed in a different color. `l` for long format. `p` puts a slash('/') after directory names
+>> * `ls` - simple file and directory listing. Does not display hidden files
+* `ls -a` - list all files/directories including hidden ones  
+* `ls -l` - listing, long format. Displays attributes such as owner, permissions, modification times, size
+* `ls -lh`  - long format, with size displayed in human readable format. Such as in KB, MB, GB etc.
+* `ls -lah` - long format, including hidden files/directories with size displayed in a human readable format  
+* `ls -t`  - listing sorted by the modification time. Most recently modified file shown first
+* `ls -Glp` - `G` argument colorizes output, so that directories are displayed in a different color. `l` for long format. `p` puts a slash('/') after directory names
 
 
 ---
