@@ -6,7 +6,7 @@
 
 import pandas as pd
 
-data = pd.read_csv('../dsp/python/football.csv')
+data = pd.read_csv('football.csv')
 
 data['AbsGoalDiff'] = (abs(data['Goals'] - data['Goals Allowed']))
 
