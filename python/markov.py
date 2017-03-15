@@ -83,10 +83,10 @@ def markovTextGenerator(filePath, numberOfWords):
         print('')
 
 def main():
-    if len(sys.argv) < 2:
+    if len(sys.argv) < 3:
         print('Invalid arguments entered. Usage:\n python markov.py <input file path> <# of words>')
-
-    markovTextGenerator(sys.argv[1], int(sys.argv[2]))
+    else:
+        markovTextGenerator(sys.argv[1], int(sys.argv[2]))
 
 if __name__ == '__main__':
     main()
